@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub Repositories</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GitHub Repositories</h1>
+        <label for="username">Enter GitHub Username:</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <button onclick="getRepositories()">Search</button>
+
+        <div id="loader" class="loader"></div>
+
+        <div id="userProfile" class="user-profile"></div>
+
+        <div id="repositories" class="repositories"></div>
+
+        <div id="pagination" class="pagination"></div>
+
+        
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
