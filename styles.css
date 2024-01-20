@@ -2,16 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #0c0b0b; */
+   
 }
 
 
 .container {
     max-width: 90%;
     margin: 50px auto;
-    /* background-color: #646060; */
-    padding: 20px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   padding: 20px;
+    
 }
 
 input, button {
